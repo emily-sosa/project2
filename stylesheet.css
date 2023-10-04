@@ -1,0 +1,452 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+body{
+	margin: 0;
+    font-family: "Inter";
+    color: #592F2F;
+}
+
+
+/* header styles*/
+.background{
+	width: 100%;
+}
+p{
+    color: #592F2F;
+}
+.logo{
+	width: 70%;
+    padding-left: 2em;
+    padding-top: .5em
+    
+}
+
+header{
+	font-size: 31px;
+	width: 100%;
+    background-color:#743F3F;
+}
+h1{
+	background-color: #743F3F;
+	color: #FCEADB;
+	padding-top: .5em;
+	padding-left: 4em;
+	padding-bottom: .5em;
+	margin: 0;
+}
+.navbar{
+	background-color: #582F2F;
+	font-size: 25px;
+	width: 90%;
+	height: 70px;
+	overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 150px;
+}   
+.navbar a{
+      font-family: "Inter";
+      display: block;
+      color: #FCEADB;
+      padding: 20px 30px 40px 20px;
+      background-color: #592F2F;
+      text-align: center;
+      text-decoration: none;
+
+    
+}
+
+.navbar a:hover{
+    background-color: #FCEADB;
+    color: #592F2F;
+}
+
+/* main styles */
+
+h2{
+    font-family: "Baskerville";
+	font-size: 40px;
+	color: #582F2F;
+	/*padding-left: 3em;*/
+	width: 58%;
+    margin-top: 80px;
+    margin-left: 300px
+}
+h3{
+    font-family: "Baskerville";
+    font-size: 35px;
+}
+h4{
+	font-size: 30px;
+	color:#FCEADB;
+	padding: 4em;
+	width: 50%;
+
+}
+
+blockquote{
+    width: 40px 200px;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 400;
+    color: #FCEADB
+}
+p{
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+    color: #FCEADB    
+}
+.figure{
+	width: 20%;
+	height: 20%;
+	padding-left: 4em;
+}
+
+#speech{
+	float: left;
+	margin: 1em;
+}
+
+
+/* buttons!! */
+.button{
+	background-color: #FCEADB;
+	border: none;
+	color: #743F3F;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	transition-duration: 0.2s;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    background-color: #743F3F;
+    color: #FCEADB;
+    border: 2px solid #FCEADB;
+    font-weight: 700;
+    
+}
+.buttonleft{
+	background-color: #FCEADB;
+	border: none;
+	color: #743F3F;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	transition-duration: 0.2s;
+    text-decoration: none;
+}
+.buttonleft:hover {
+    background-color: #743F3F;
+    color: #FCEADB;
+    border: 2px solid #FCEADB;
+    font-weight: 700;
+    
+}
+
+
+/* About Us Styles */
+
+.Aboutus{
+    overflow: hidden;
+    background-color: #743F3F;
+    clear: left;
+}
+
+.Aboutus div{
+    float: left;
+    width: 40%;
+}
+
+.textbox{
+    padding-left: 10em;
+    padding-top: 5em
+}
+
+.Aboutus blockquote{
+    max-width: 300px;
+    padding: 1em 0;
+    margin: 0;
+}
+.Aboutus img{
+    width: 120%;
+    margin: 0;
+}
+img[src="logos/people.png"] {
+    width: 15%;
+    height: 15%;
+}
+
+
+/* Federal Programs Styles */
+
+.Federal{
+    overflow: hidden;
+    background-color: #743F3F;
+    clear: left;
+    margin-top: 5em;
+}
+
+.Federal div{
+    float: left;
+    width: 42%;
+}
+
+.textboxleft{
+    /*margin: 0 5px;*/
+    padding-left: 10em;
+    padding-top: 3em;
+}
+
+.Federal blockquote{
+    max-width: 300px;
+    padding: 1em 0;
+    margin: 0;
+}
+.Federal img{
+    width: 120%;
+    margin: 0;
+}
+img[src="logos/documents.png"] {
+    width: 15%;
+    height: 15%;
+
+}
+
+
+/* Contact Styles */
+
+.Contact{
+    overflow: hidden;
+    background-color: #743F3F;
+    clear: left;
+    margin-top: 5em;
+
+}
+
+.Contact div{
+    float: left;
+    width: 40%;
+}
+
+.textbox{
+    margin: 0 40px;
+    padding-left: 10em;
+    padding-top: 5em
+}
+
+.Contact blockquote{
+    max-width: 300px;
+    padding: 1em 0;
+    margin: 0;
+}
+.Contact img{
+    width: 120%;
+    margin: 0;
+}
+img[src="logos/email.png"] {
+    width: 15%;
+    height: 15%;
+}
+
+
+/* !!ABOUT US PAGE!! */
+
+.aboutpage{
+    border-bottom-style: solid;
+    border-width: 12px;
+    border-color: #592F2F;
+}
+.paragraph{
+    margin: 50px 300px 400px 300px;
+}
+.main{
+    color: #592F2F; 
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 4em;
+}
+.float{
+    color: #592F2F;
+    float: left;
+    width: 40%;
+    font-size: 15px;
+    padding-right: 6em;
+    line-height: 25px;
+}
+
+/* !! FEDERAL PROGRAM CODE !!*/
+
+#pdf{
+    overflow: hidden;
+}
+#pdf img{
+    float: left;
+    width: 30%;
+    padding-top: 5em;
+    padding-right: 1.5em;
+}
+/* buttons 2.0!! */
+.button2{
+	background-color: #FCEADB;
+	border: none;
+	color: #743F3F;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	transition-duration: 0.2s;
+    text-decoration: none;
+    justify-content: space-evenly;
+    width: 24.5%;
+
+
+}
+.button2:hover {
+    background-color: #743F3F;
+    color: #FCEADB;
+    border: 2px solid #FCEADB;
+    font-weight: 700;
+    
+}
+
+/*!!CONTACT PAGE!!*/
+
+.adr{
+    color:#743F3F;
+    font-size: 20px;
+}
+.contactparagraph{
+    margin: 50px 300px 100px 300px;
+}
+.forminfo{
+    margin: 0;
+    font-size: 22px;
+    padding: 2em 0;
+}
+.form{
+    color: #FCEADB;
+    padding: 0 5em 0 5em;
+    background-color:#743F3F;
+    margin: 0px 600px 200px 300px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #FCEADB;
+  color: #743F3F;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #743F3F;
+    color: #FCEADB;
+    border: 2px solid #FCEADB;
+    font-weight: 700;
+}
+.form div {
+  border-radius: 5px;
+  background-color: #743F3F;
+    padding-bottom: 2em;
+    
+}
+
+
+
+
+/* Footer Styles */
+img[src="logos/logoFOOTER.svg"] {
+    width: 30%;
+    height: 30%;
+    padding-left: 3em;
+}
+
+footer{
+	background-color: #E6CFBB;
+	color: #582F2F;
+    padding: 1px 0;
+	margin: 0;
+}
+
+footer p{
+    color: #592F2F;
+    font-size: 12px
+}
+footer img{
+    width: 30%;
+    height: 30%;
+    padding: 2em 1em;
+}
+footer section{
+    float: right;
+    width: 20%;
+}
+.information{
+    padding-right: 5em;
+}
+.column{
+	float: right;
+	width: 30%;
+    padding-right: 10px;
+    
+}
+
+.social img{
+    width: 15%;
+    height: 15%;
+    padding-right: 15px;
+}
+
+.bold{
+    font-weight: 700;
+    color: #592F2F;
+}
+.column a{
+    text-decoration: none;
+
+}
+.column a:hover{
+    background-color: #FCEADB;
+    color: #592F2F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
